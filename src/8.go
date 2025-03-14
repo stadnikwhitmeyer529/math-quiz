@@ -1,0 +1,1 @@
+import( "math" ) func( "main" ) { rand.Seed( time.Now().Unix() ) rand := rand.Intn( 10 ) if rand > 5 { fmt.Println( "Greater than 5" ) } else { fmt.Println( "Less than or equal to 5" ) } }
